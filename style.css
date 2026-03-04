@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Mea+Culpa&family=Rouge+Script&family=Updock&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mea+Culpa&family=MonteCarlo&family=Rouge+Script&family=Updock&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amethysta&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Imperial+Script&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lancelot&family=Mea+Culpa&family=MonteCarlo&family=Rouge+Script&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Updock&display=swap');
 
 :root {
     --bg-surface: hsl(19, 60%, 40%);
@@ -223,6 +223,10 @@ main {
     gap: 10px;
     border: 1px solid hsl(0, 0%, 90%);
     transition: 0.3s;
+    font-family: "Inter";
+    font-size: 12px;
+    letter-spacing: 0;
+    font-style: normal;
 }
 
 .location a:hover {
@@ -235,10 +239,11 @@ main {
 }
 
 .location h1 {
-    font-size: 23px;
+    font-size: 25px;
     color: hsl(0, 0%, 95%);
     letter-spacing: 0.3px;
-    
+    font-family: "Inter";
+    font-weight: 600;
 }
 
 .location-card {
@@ -255,6 +260,9 @@ main {
     display: flex;
     align-items: center;
     gap: 5px;
+    font-family: "Inter";
+    font-family: "tinos";
+    font-size: 15px;
 }
 
 .location-autobus p {
@@ -262,6 +270,9 @@ main {
     color: hsl(0, 0%, 90%);
     font-style: italic;
     line-height: 18px;
+    font-family: "tinos";
+    /* font-weight: 600; */
+    font-size: 14px;
 }
 
 .papel-rasgado {
@@ -299,6 +310,15 @@ main {
 }
 .confirm form > h3 {
     text-align: center;
+    font-family: "tinos";
+    font-weight: 900;
+    font-size: 24px ;
+}
+.confirm form > p {
+    font-family: "tinos";
+    font-style: italic;
+    font-size: 14px;
+    letter-spacing: 0;
 }
 .confirm form .input {
     display: flex;
@@ -370,6 +390,7 @@ main {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    font-family: "tinos";
 }
 .gallery > h1 {
     font-size: 23px;
@@ -424,8 +445,15 @@ main {
     padding: 8px 0;
     border: 1px solid hsl(19, 60%, 40%);
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0.5px;
+    font-family: "Inter";
+    font-weight: 300;
+    transition: 0.3s;
+}
+.foto button:hover {
+    background-color: hsl(19, 60%, 35%);
+    border-color: hsl(19, 60%, 35%);
 }
 
 .copyright {
